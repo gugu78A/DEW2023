@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+        <div>
+            <label for="nome_usuario">Nome: </label>
+            <input type="text" name="nome_usuario" id="nome_usuario" size="50" maxlenght="10" minlength="3" placeholder="Digite seu nome"> 
+        </div>
+        <div>
+        <label for="endereço">Endereço: </label>
+        <input type="text" name="endereço" id="endereço" placeholder="Digite o endereço" required>
+        </div>
+        <div>
+        <label for="cidade">Cidade: </label>
+        <input type="text" name="cidade" id="cidade" placeholder="Digite a cidade" required>
+        </div>
+        <div>
+            <label for="estado">Estado</label>
+            <select name="opc" id="opc">
+                <option value="tsi">São Paulo</option>
+                <option value="tme">Rio de Janeiro</option>
+                <option value="inf">Minas Gerais</option>
+                <option value="adm">Espírito Santo</option>
+             </select>
+        </div>
+    </fieldset>
+        <fieldset>
+            <div>
+                <label for="">Escolha o Tipo</label>
+            <br>
+            <input type="radio" name="tipo" id="gerencia">
+            <label for="gerencia">Gerencia</label>
+            <input type="radio" name="tipo" id="financeiro">
+            <label for="financeiro">Financeiro</label>
+            <input type="radio" name="tipo" id="recepção">
+            <label for="recepção">Recepção</label>
+            <input type="radio" name="tipo" id="administrativo">
+            <label for="administrativo">Administrativo</label>
+            <input type="radio" name="tipo" id="juridico">
+            <label for="juridico">Juridico</label>
+
+            </div>
+            <br>
+            <div>
+                <label for="">Natureza do cargo:</label>
+                <br>
+                <input type="checkbox" name="computação" id="computação">
+                <label for="computação">Computação</label>
+                <input type="checkbox" name="biologia" id="biologia">
+                <label for="biologia">Biologia</label>
+                <input type="checkbox" name="meio ambiente" id="meio ambiente">
+                <label for="meio ambiente">Meio ambiente</label>
+                <input type="checkbox" name="engenharia" id="engenharia">
+                <label for="engenharia">Engenharia</label>
+                <input type="checkbox" name="historia" id="historia">
+                <label for="historia">História</label>
+            </div>
+            <br>
+            <div>
+
+          <label for="">Mini currículo</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Digite seu curriculo"></textarea>
+            </div>
+           
