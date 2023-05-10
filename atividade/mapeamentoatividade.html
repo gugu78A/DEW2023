@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Tag Map</h1>
+    </header>
+    <main>
+        <section>
+            <p>Permita mapear uma imagem tornando áreas de imagem clicáveis</p>
+            <hr>
+            <figure>
+                <img src="../Img/Atividade.jpg" alt=""usemap="#rs">
+                <figcaption>Passe o mouse sobre os ícones da imagem para ir para suas páginas</figcaption>
+            </figure>
+            <map name="rs">
+            <area shape="poly" coords="17,100,84,100,49,42" href="triangulo.html" alt="" target="alvo" title="triângulo">
+             <area shape="circle" coords="132,72,30" href="circulo.html" alt="" target="alvo" title="círculo">
+             <area shape="rect" coords="193,39,256,101" href="quadrado.html" alt="" target="alvo" title="quadrado">
+            </map>
+        </section>
+    </main>
+        <iframe src="" frameborder="0" name="alvo" width="1000" height="500" name="alvo"></iframe>
+    
+</body>
+
+</html>
