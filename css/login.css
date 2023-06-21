@@ -1,13 +1,32 @@
-.cor-nome /*Aqui inserimos a cor de texto*/{
+.cor-nome {
+    /*Cor de fundo do elemento*/
+    background-color: beige;
+    /*altera a cor do texto*/
+    color: black;
+}
+
+.cor-senha {
+    /*cor de fundo do elemento*/
+    background-color: aqua;
+    /*altera a cor do texto*/
     color: red;
+
+    /*altera a largura do elemento*/
+    width: 100px;
+
+    /*altera a fonte do elemento*/
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.cor-email /*Aqui inserimos a cor do texto de email*/ {
-    color: red
-}
+   .cor-email{
+    /*altera a cor do texto*/
+        color: blue;
+        /*altera a largura do elemento*/
+        width: 100px;
+        /*altera a altura do elemento*/
+        height: 110px;
+        
+   }
+    
+    
 
-.tamanho-senha{
-    ;
-}
-
-   

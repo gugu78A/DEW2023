@@ -1,27 +1,33 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>página login</title>
-    <link rel="stylesheet" href="../css/login.css">
+    <title>Página Login</title>
+    <link rel="stylesheet" href="atividadelogin.css">
 </head>
 <body>
-    <form action="">
-        <div class="cor-nome"> 
-            <label for="nome">Escreva seu nome</label>
-            <input type="text" name="nome" id="nome">
-        </div>
-       
-        <div class="cor-email">
-        <label for="email">Escreva o seu email</label>
-        <input type="text" name="email" id="email">
-        </div>
-        <div class="tamanho-senha">
-        <label for="senha">Escreva sua senha</label>
-        <input type="password" name="email" id="email">
-        </div>
+
+    <h1>Atividade Pagina de login com CSS</h1>
+    
+            <div class="cor-nome">
+            <label for="">Nome de usuário:</label> <!--Label insere um rótulo--> 
+            <!--Input text é um campo de entrada de texto-->
+            <input type="text" name="nome_usuario" id="nome_usuario" size="50" maxlength="10" minlength="3" 
+                 placeholder=""> 
+            </div>
+
+            <div class="cor-senha">
+                <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" required>
+                    </div>
+
+                    <div class="cor-email">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
     </form>
+
 </body>
 </html>
