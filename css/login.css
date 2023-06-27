@@ -1,32 +1,178 @@
-.cor-nome {
-    /*Cor de fundo do elemento*/
-    background-color: beige;
-    /*altera a cor do texto*/
-    color: black;
+body {
+
+    padding: 0;
+    /*Define a distância do conteúdo de um elemnto e suas bordas */
+
+
+    margin: 0;
+    /*Define o tamanho da margem do elemento (expaçamento externo)*/
+
+
+    background-color: #454d6b;
+     /*Define a cor de fundo da fonte*/
+
 }
 
-.cor-senha {
-    /*cor de fundo do elemento*/
-    background-color: aqua;
-    /*altera a cor do texto*/
-    color: red;
+#login {
 
-    /*altera a largura do elemento*/
-    width: 100px;
+    display: flex;
+     /*Define se um elemento é tratado como um bloco ou um elemento inline e o
+    layout usado para os seus filhos, como layout de fluxo*/
 
-    /*altera a fonte do elemento*/
-    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    /*alinhar os elementos no eixo transversal*/
+
+    justify-content: center;
+    /*é usada para alinhar os elementos ao longo do eixo principal, cuja direção 
+    é definida a partir da propriedade flex-direction*/
+
+    height: 100vh;
+     /*Define a altura da fonte*/
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*permite que se faça uma lista de propriedades de famílias de fontes e/ou 
+    nomes genéricos de famílias a serem especificados para um elemento especificado*/
+
+}
+.card-header {
+
+    padding-bottom: 50px;
+    /*Define as dimensões do espaçamento interno inferiror*/
+
+
+    opacity: 0.8;
+    /*especifica a transparência de um elemento*/
+
+    color: #fff;
+     /*Define a cor da fonte*/
+
+}
+.card-header::after {
+
+    content: "";
+    /*é usada com os pseudoelementos para gerar conteúdo em um elemento*/
+
+    width: 70px;
+     /*Define a largura da fonte*/
+
+    height: 1px;
+     /*Define a altura da fonte*/
+
+    background-color: #fff;
+     /*Define a cor de fundo da fonte*/
+
+    display: block;
+     /*Define se um elemento é tratado como um bloco ou um elemento inline e o
+    layout usado para os seus filhos, como layout de fluxo*/
+
+    margin-top: -17px;
+    /*Define o tamanho da margem superior do texto*/
+
+    margin-left: -5px;
+    /*Define o tamanho da parte esquerda da margem*/
+
+}
+.card-content label {
+
+    color: #fff;
+     /*Define a cor da fonte*/
+
+    font-size: 12px;
+    /* Define o tamanho da fonte*/
+
+    opacity: 0.8;
+    /*Especifica a transparência de um elemento*/
+
 }
 
-   .cor-email{
-    /*altera a cor do texto*/
-        color: blue;
-        /*altera a largura do elemento*/
-        width: 100px;
-        /*altera a altura do elemento*/
-        height: 110px;
-        
-   }
-    
-    
+.card-content-area {
 
+    display: flex;
+    /*Define se um elemento é tratado como um bloco ou um elemento inline e o
+    layout usado para os seus filhos, como layout de fluxo*/
+
+    flex-direction: column;
+    /*Define como os itens flexíveis serão colocados no contêiner flexível*/
+
+
+    padding:10px 0;
+    /*Define a distância do conteúdo de um elemnto e suas bordas */
+
+
+}
+.card-content-area input {
+
+    margin-top: 10px;
+    /*Define o tamanho da borda superior da fonte */
+
+    padding:0 5px;
+    /*Define a distância do conteúdo de um elemnto e suas bordas */
+
+
+    background-color: transparent;
+     /*Define a cor de fundo da fonte*/
+
+    border:none;
+    /*você dá um atributo a todas as bordas*/
+
+    border-bottom: 1px solid #e1e1e1;
+    /*você dá um atributo a borda inferior*/
+
+    outline: none;
+    /*propriedade abreviada para configurar uma ou mais das propriedades de contorno
+    outline-style (en-US), outline-widht (en-US) e outline color (en-US) em uma
+    única declaração*/
+
+    color: #fff;
+    /*Define a cor de texto do melemento*/
+
+}
+.card-footer {
+
+    display: flex;
+    /*Define se o bloco é ou não um elemento inline*/
+
+    flex-direction: column;
+    /*Define como os itens flexíveis serão colocados no contêiner flexível*/
+
+}
+
+.card-footer .submit{
+
+    width: 100%;
+    /*Define a largura da fonte*/
+
+    height: 40px;
+     /*Define o tamanho da fonte*/
+
+    background-color: #a13854;
+     /*Define a cor de fundo da fonte*/
+
+    border:none;
+    /*Quando você quer formatar todas as bordas, você utiliza essa propriedade*/
+
+    color:#e1e1e1;
+     /*Define a cor da fonte*/
+
+    margin: 10px 0;
+     /*Define a margem do elemento (expaçamento externo)*/
+
+}
+.card-footer a {
+
+    text-align: center;
+    /*Definir o alinhamento horizontal no texto*/
+
+    font-size: 12px;
+     /*Define o tamanho da fonte*/
+
+    opacity: 0.8;
+    /*Especifica a transparência de um elemento*/
+
+    color: #fff;
+     /*Define a cor do que será escrito*/
+
+    text-decoration: none;
+    /*Definir a formatação de underline, overline, line-throught ou blink*/
+
+}
